@@ -1,5 +1,7 @@
 # E2e
 
+This projects goal is to generate a starter framework for running protractor cucumber e2e tests, and some shortcut commands for adding new page obejcts, etc. 
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
