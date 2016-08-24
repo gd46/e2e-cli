@@ -4,24 +4,25 @@
 module.exports = {
   description: 'Page object',
 
+   availableOptions: [
+    { name: 'team', type: String, aliases: ['t'] }
+  ],
+
   normalizeEntityName: function(entityName) {
     // Normalize and validate entity name here.
     return entityName;
   },
 
   locals: function (options) {
-  	console.log('options', options);
   	return {
-  		selector: this.entityName,
-  		rawEntityName: this.entityName
+  		team: this.options.team
   	}
   },
 
-  flatMapTokens: function (options) {
-  	console.log('flatMapTokens', options);
+  fileMapTokens: function (options) {
   	return {
-  		_path_: {
-  			options
+  		__path__: function (options) {
+  			return './test/page_objects/' + options.locals.team;
   		}
   	}
   }
