@@ -1,3 +1,3 @@
-funciton <%= camelizedModuleName %>() {
+function <%= camelizedModuleName %>() {
 	
 }
