@@ -4,9 +4,9 @@
 module.exports = {
   description: 'Page object',
 
-  normalizeEntityName: function (entityName) {
-  	console.log('name', entityName);
-  	return entityName;
+  normalizeEntityName: function(entityName) {
+    // Normalize and validate entity name here.
+    return entityName;
   },
 
   locals: function (options) {
