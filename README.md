@@ -26,3 +26,9 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember build`
 
 For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+
+## Resources
+
+For inserting text to file, this method is used in this project [http://stackoverflow.com/questions/30764424/insert-string-at-line-number-nodejs] Fs.WriteFile Help
+
+For inserting text using Fs.writeFileSync [http://stackoverflow.com/questions/27352389/how-to-append-to-a-file-on-particular-position-using-node-js] Fs.writeFile Sync
