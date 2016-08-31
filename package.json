@@ -11,6 +11,9 @@
     "start": "ember server",
     "test": "ember try:each"
   },
+  "bin": {
+    "e2e": "./bin/e2e"
+  },
   "repository": "",
   "engines": {
     "node": ">= 0.10.0"
@@ -41,7 +44,9 @@
     "ember-welcome-page": "^1.0.1",
     "indent-string": "^3.0.0",
     "loader.js": "^4.0.1",
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "resolve": "^1.1.6",
+    "exit": "^0.1.2"
   },
   "keywords": [
     "ember-addon"
